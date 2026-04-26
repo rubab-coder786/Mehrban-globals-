@@ -1,3 +1,16 @@
+:root {
+  --mg-green: #1a5f1a;
+  --mg-gold: #FFD23F;
+  --mg-black: #1a1a1a;
+  --mg-white: #ffffff;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
 body { 
   margin:0; 
   font-family:Arial, sans-serif; 
